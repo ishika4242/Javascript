@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Rock n Roll😎</title>
+  </head>
+  <body>
+    <main>
+      <section class="player player--0 player--active">
+        <h2 class="name" id="name--0">Player 1</h2>
+        <p class="score" id="score--0">43</p>
+        <div class="current">
+          <p class="current-label">Current</p>
+          <p class="current-score" id="current--0">0</p>
+        </div>
+      </section>
+      <section class="player player--1">
+        <h2 class="name" id="name--1">Player 2</h2>
+        <p class="score" id="score--1">24</p>
+        <div class="current">
+          <p class="current-label">Current</p>
+          <p class="current-score" id="current--1">0</p>
+        </div>
+      </section>
+
+      <img src="dice-5.png" alt="Playing dice" class="dice" />
+      <button class="btn btn--new">🔄 New game</button>
+
+      <button class="show-modal btn btn--rules">👉🏻 Rules</button>
+      <div class="modal hidden">
+        <button class="close-modal">&times;</button>
+        <h1>RULES</h1>
+        <br /><br />
+        <ul>
+          <h2><li>There are two players in a game Player1 and Player2.</li></h2>
+          <h2><li>The player scoring the first 100 wins the game.</li></h2>
+          <h2>
+            <li>
+              Every player would be given a chance to roll a dice which will be
+              added to their current-score.
+            </li>
+          </h2>
+          <h2>
+            <li>
+              If the player get's a 1 on his/her dice,then the current-score
+              will collapse and the other player would be given the chance.
+            </li>
+          </h2>
+          <h2>
+            <li>
+              A Player could also hold score and allow other player to play.
+            </li>
+          </h2>
+        </ul>
+        <br /><br /><br /><br />
+        <h1 style="text-align: center">All the Best👍</h1>
+      </div>
+      <div class="overlay hidden"></div>
+
+      <button class="btn btn--roll">🎲 Roll dice</button>
+      <button class="btn btn--hold">📥 Hold</button>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
