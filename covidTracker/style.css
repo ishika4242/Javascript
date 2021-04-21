@@ -1,0 +1,34 @@
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  background: linear-gradient(
+    to top left,
+    rgb(167, 252, 233),
+    hsl(167, 90%, 61%),
+    rgb(6, 10, 244),
+    #063ef485,
+    rgb(6, 10, 244),
+    hsl(167, 90%, 61%),
+    rgb(167, 252, 233)
+  );
+}
+
+.card {
+  width: 100rem;
+  margin-left: 200px;
+}
+
+.card-title_formating {
+  text-align: center;
+}
+
+.btn-primary_formating {
+  margin-left: 240px;
+}
+
+.input_formating {
+  margin-left: 80px;
+  width: 400px;
+  color: gray;
+}
