@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta n="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- <script src="script.js" defer></script> -->
+  </head>
+  <body>
+    <h1>Calculator</h1>
+    <div class="container">
+      <form id="calform" name="cal">
+        <input name="display" class="inputfield" />
+        <br />
+        <input
+          type="button"
+          class="btn btn-primary"
+          value="0"
+          onClick="cal.display.value += '0'"
+        />
+        <input
+          type="button"
+          class="btn btn-primary"
+          value="1"
+          onClick="cal.display.value += '1'"
+        />
+        <input
+          type="button"
+          class="btn btn-primary"
+          value="2"
+          onClick="cal.display.value += '2'"
+        />
+        <input
+          type="button"
+          class="btn btn-primary"
+          value="+"
+          onClick="cal.display.value += '+'"
+        />
+        <br />
+        <input
+          type="button"
+          class="btn btn-primary"
+          value="3"
+          onClick="cal.display.value += '3'"
+        />
+        <input
+          type="button"
+          class="btn btn-primary"
+          value="4"
+          onClick="cal.display.value += '4'"
+        />
+        <input
+          type="button"
+          class="btn btn-primary"
+          value="5"
+          onClick="cal.display.value += '5'"
+        />
+        <input
+          type="button"
+          class="btn btn-primary"
+          value="-"
+          onClick="cal.display.value += '-'"
+        />
+        <br />
+        <input
+          type="button"
+          class="btn btn-primary"
+          value="6"
+          onClick="cal.display.value += '6'"
+        />
+        <input
+          type="button"
+          class="btn btn-primary"
+          value="7"
+          onClick="cal.display.value += '7'"
+        />
+        <input
+          type="button"
+          class="btn btn-primary"
+          value="8"
+          onClick="cal.display.value += '8'"
+        />
+        <input
+          type="button"
+          class="btn btn-primary"
+          value="*"
+          onClick="cal.display.value += '*'"
+        />
+        <br />
+        <input
+          type="button"
+          class="btn btn-primary"
+          value="c"
+          onClick="cal.display.value = ''"
+        />
+        <input
+          type="button"
+          class="btn btn-primary"
+          value="9"
+          onClick="cal.display.value += '9'"
+        />
+        <input
+          type="button"
+          class="btn btn-primary"
+          value="="
+          onClick="cal.display.value = eval(cal.display.value) "
+        />
+        <input
+          type="button"
+          class="btn btn-primary"
+          value="÷"
+          onClick="cal.display.value += '÷'"
+        />
+      </form>
+    </div>
+  </body>
+</html>
